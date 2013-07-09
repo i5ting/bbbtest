@@ -1,0 +1,16 @@
+*{padding:0;margin:0;vertical-align:top;outline:0}
+html{overflow-y:scroll;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;}
+body{margin:0;font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:13px;line-height:20px;color:333}
+
+article,aside,details,figcaption,footer,header,hgroup,nav,section{display:block;}
+img, fieldset, hr, iframe, button {border: 0;}
+img{width: auto \9;height:auto;max-width: 100%;vertical-align:middle;border:0;}
+li{list-style:none;}
+button,input,select,textarea{margin:0;font-size:100%;vertical-align:middle;}
+button,.btn{overflow:visible;_overflow-y:hidden;width:auto;padding:0;-moz-box-sizing:content-box;box-sizing:content-box;text-indent:0;outline:0!important;cursor:pointer;*border:0!important;background:none;}
+button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}
+sup,sub {vertical-align:baseline}
+h1,h2,h3,h4,h5,h6,b {font-size:1em;font-weight:normal}
+
+a,a:visited {text-decoration: underline;}
+a {color: #0088cc;text-decoration: none;}

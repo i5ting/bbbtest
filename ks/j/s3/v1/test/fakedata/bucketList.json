@@ -1,0 +1,13 @@
+{
+	"status": "1",
+    "statusText": "ok",
+    "data": [{
+        "name":"bucket1",
+        "creationDate":"Mon, 08 Apr 2013 02:17:25 GMT"
+        },
+        {
+        "name":"bucket2",
+        "creationDate":"Mon, 08 Apr 2013 02:17:25 GMT"
+        }
+    ]
+}

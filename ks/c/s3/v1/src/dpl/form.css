@@ -1,0 +1,37 @@
+/*
+Form
+*/
+.txt{height:19px;line-height: 19px!important;padding:4px 4px 4px;border:1px solid #e8e4d8;border-radius: 3px}
+.txt,select,textarea{border:1px solid #d8d8d8;border-radius:3px;box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);-webkit-transition:border linear 0.2s, box-shadow linear 0.2s}
+.txt-large{width:260px;}
+.radio,.chk{display:inline-block;*display:inline;*vertical-align:top;margin: 0 0 .2em 0;white-space: nowrap;*zoom:1}
+.radio input,.chk input{position:relative;*position:static;top:-1px;margin:0 4px 0 1px;*margin:-5px 1px -1px 0;_margin-top:-2px;vertical-align: middle;cursor: pointer}
+.tarea{position:relative;padding:0 5px;*zoom:1}
+.tarea textarea{overflow-y:auto;display:block;width: 100%;height:59px;min-height: 59px;margin:0 -5px;padding:4px;vertical-align: top;word-wrap:break-word;outline: 0}
+select{display: inline-block;*display: inline;*zoom:1;height:24px;line-height: 19px!important}
+
+/*element status*/
+.placeholder,input.placeholder{color: #999!important}
+.txt.focused,input:focus,.tarea textarea:focus{border-color:#b8def8;-webkit-box-shadow:0 0 5px rgba(123,179,207,.6);-moz-box-shadow:0 0 5px rgba(123,179,207,.6);box-shadow:0 0 5px rgba(123,179,207,.6)}
+.txt.disabled, textarea.disabled{background: #eee}
+
+/*form layout*/
+form{display:block}
+.frm{margin-bottom:9px}
+.frmT{padding:5px 0 5px;line-height:23px;color:#333}
+.frmMsg{*margin-top:8px;font-size:13px}
+.frmMsg i{margin-right:3px}
+.input_fake{display: inline-block;*display:inline;*vertical-align:top;position: relative;line-height:1.67;*zoom:1}
+
+.form .frm{margin:10px 0 7px 0;padding-left:105px}
+.form .frmT{width:80px;margin:0 0 -27px -90px;padding:5px 0 5px;text-align:right;line-height:18px;}
+.form .frmMsg{display:inline-block;*display:inline;padding:8px 10px 2px 0;vertical-align:top;*zoom:1}
+.form .formBtns{margin-left:105px}
+.form_large input,.form_large select,.form_large textarea,.form_large .radio,.form_large .chk{font-size:14px;min-height:22px;!line-height:20px}
+.form_large .frmT,.form_large .frmMsg,.form_large .input_fake{font-size:14px;line-height: 24px}
+
+/*form text status*/
+.frm_err label, .frm_err .frmMsg{color:#db1515}
+.frm_err .frmC .txt, .frm_err .frmC select, .frm_err .frmC .tarea textarea{border-color:#db1515}
+.frm_ok label, .frm_ok .frmMsg{color:#468847}
+.frm_ok .frmC .txt, .frm_ok .frmC select, .frm_ok .frmC .tarea textarea{border-color:#468847}

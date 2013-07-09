@@ -1,0 +1,9 @@
+/*
+*Alert
+*/
+.alert{position:relative;margin-bottom:10px;background:#fcf8e3;border:1px solid #fbeed5;border-radius:4px;padding:3px 30px 3px 15px;color:#c09853;text-shadow:0 1px 0 rgba(255,255,255,0.5);}
+.alert>.close{margin-left:0;line-height: 18px;}
+
+.alert_ok{background-color: #dff0d8;border-color: #d6e9c6;color: #468847;}
+.alert_err{background-color: #f2dede;border-color: #eed3d7;color: #b94a48;}
+.alert_info{background-color: #d9edf7;border-color: #bce8f1;color: #3a87ad;}
