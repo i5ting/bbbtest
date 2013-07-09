@@ -8,8 +8,8 @@
 
 
 define([
-	'jquery','backbone','app/bucket/bucketModel'
-], function($,Backbone,bucketModel){
+	'jquery','underscore','backbone','app/bucket/bucketModel'
+], function($,_,Backbone,bucketModel){
 	var bucketColection = Backbone.Collection.extend({
 		
 	    model: function(attrs, options) {
@@ -45,6 +45,8 @@ define([
 			   console.log('bc = '+window.bc.length);
 			   // alert(self.models);
 			   
+			   alert('triger');
+			   self.trigger("fetchCompleted:Buckets");
 			   self.trigger("fetchCompleted:Buckets");
 		   }).error(function() { 
 			   alert("error"); 

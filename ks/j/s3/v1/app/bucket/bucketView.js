@@ -1,27 +1,38 @@
 'use strict'
 
 define([
-	'jquery','backbone','app/bucket/bucketCollection','app/bucket/bucketModel'
-], function($,Backbone, BucketCollection,BucketModel){
-	var object = {};
-
-	_.extend(object, Backbone.Events);
+	'jquery','underscore','backbone','app/bucket/bucketCollection','app/bucket/bucketModel'
+], function($,_,Backbone, BucketCollection,BucketModel){
 	
 	
 	var bucketView = Backbone.View.extend({
 	    el: $("#knots"),
+		model: new BucketModel(),
 
 	    initialize: function() {
 	        // window.bc.reset();
-			console.log(self);
-			// this.on('fetchCompleted:Buckets',this.c,this);
-	        // window.bc.bind("add", this.render);
-
-			$(this.model).bind("fetchCompleted:Buckets", this.render, this);
+			console.log('bucketView'+self);
 			
+			// this.data  = new BucketCollection();
+			// alert(self.model);
+			// this.on('fetchCompleted:Buckets',this.c,this);
+	        // window.bc.bind("add", this.ren 
+			// this.listenTo(this.model, 'change', this.render);
 	        // window.bc.fetch();
-			this.get_data();
+			// this.get_data();
 			// this.render();
+			
+			// this.on(this.model, "fetchCompleted:Buckets", this.c);
+			 
+			// this.data.bind('add', function(message) {
+// 			  message.fetch({success: function(){
+// 				  alert('222');
+// 				  self.render();
+// 			  }});
+// 			});
+// 			
+			
+			
 	    },
 		c:function(){
 			alert('completed');
@@ -31,6 +42,7 @@ define([
 
 	    render: function() {
 			
+			alert('render');
 			this.$el.append('<br><br><br>sss<hr>');
 			alert(window.bc.length);
  
@@ -52,6 +64,7 @@ define([
 		
 		get_data:function()
 		{
+			alert('get_data');
 			var a = new BucketCollection();
 			
 			Backbone.sync = function(method, model) {

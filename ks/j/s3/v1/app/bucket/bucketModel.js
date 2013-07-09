@@ -1,8 +1,8 @@
 'use strict'
 
 define([
-	'backbone'
-], function(Backbone){
+	'backbone','underscore'
+], function(Backbone,_){
 	var bucketModel = Backbone.Model.extend({
 		defaults: {
 			"name"			: "no name",
