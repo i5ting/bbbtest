@@ -9,7 +9,6 @@ define([
 			"": "index"
 		},
 		index: function(){
-			var bm = new BucketModel();
 			var bv = new BucketView();	
 			var bc = new BucketCollection({view:bv});
 			
