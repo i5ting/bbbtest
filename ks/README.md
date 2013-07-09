@@ -38,3 +38,26 @@ http://lostechies.com/derickbailey/2011/09/06/test-driving-backbone-views-with-j
 
 - 开始学习 Backbone
 http://www.ibm.com/developerworks/cn/web/wa-backbonejs/
+
+- 简单的例子 https://github.com/appleboy/appleboy.github.com/blob/master/backbone.js/example_1/index.html
+
+通过collection的构造函数，把view传过去，然后绑定add事件，回调view的add成功的方法。
+
+思路有可取之处
+
+- 文档
+http://addyosmani.github.io/backbone-fundamentals/
+
+
+- 解释事件模型和观察者模式
+http://lostechies.com/derickbailey/2013/02/06/managing-events-as-relationships-not-just-references/
+
+
+
+
+
+
+
+
+
+
